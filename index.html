@@ -1,116 +1,39 @@
 <!DOCTYPE html>
-<!-- language attribute is specify here , which is english here-->
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pizza Order Form</title>
-  <!--giving dashed bordered style to the page-->
-  <style>
-    body{
-      border: 10px dashed black;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basics</title>
+    <style>
+        *{
+        background-color:rgb(92, 94, 94);
+        }
+        h1{
+            text-decoration: underline;
+            text-align:center;
+        }
+        body{
+            border-style:dashed;
+            border-width:13px;
+        }
+        img{
+            padding-left: 345px;
+        }
+        div{
+            padding-left:200px;
+        }
+    </style>
 </head>
-<!--choosing backgroundcolor by taking hexadecimal color code-->
-<body bgcolor="#cf5124">
-  <header>
-    <h1>Pizza Order Form</h1>
-  </header>
-  <!--in order to align the pictures in a format , table element is used-->
-  <!--putting all pictures in figure element for describing further-->
-  <figure>
-<table align="center">
-  <tr>
-  <td valign="bottom"><img src="image/Pizza Food.jpeg" alt="picture of pizza" width="150 height=150"></td>
-  <td valign="bottom"><img src="image/Pizza Food.jpeg" alt="picture of pizza" width="250 height=250"></td>
-  <td valign="bottom"><img src="image/Pizza Food.jpeg" alt="picture of pizza" width="350 height=350"></td>
-  <td valign="bottom"><img src="image/Pizza Food.jpeg" alt="picture of pizza" width="450 height=450"></td>
-</tr>
-</table>
-</figure>
-<!--main section of the body-->
-  <main>
-    <form action="index.html" method="post">
-      <!--fieldset tag draws a box around the group of related elements-->
-      <fieldset >
-        <!--it defines a caption for the <fieldset> element-->
-        <legend><h3>Order Details</h3></legend>
-        <label for="quantity">Number of Pizzas:</label>
-        <input type="number" id="quantity" name="quantity" min="1" placeholder="quantity">
-        <br/>
-        <br/>
-        <label for="size">Size:</label>
-        <!--select tag is to select one option from the following-->
-        <select id="size" name="size">
-          <option value="small">Small</option>
-          <option value="medium">Medium</option>
-          <option value="large">Large</option>
-        </select>
-        <br/>
-        <br/>
-        <!--radio type is used here , you can select one option here-->
-        <label>Shape:</label>
-        <input type="radio" id="shape-round" name="shape" value="round">
-        <label for="shape-round">Round</label>
-        <input type="radio" id="shape-square" name="shape" value="square">
-        <label for="shape-square">Square</label>
-        <br/>
-        <br/>
-        <!--checkbox type is used here, you can select multiple choice here-->
-        <label>Toppings:</label>
-        <input type="checkbox" id="topping-cheese" name="topping[]" value="cheese">
-        <label for="topping-cheese"><b>Cheese</b></label>
-        <input type="checkbox" id="topping-pepperoni" name="topping[]" value="pepperoni">
-        <label for="topping-pepperoni">Pepperoni</label>
-        <input type="checkbox" id="topping-mushrooms" name="topping[]" value="mushrooms">
-        <label for="topping-mushrooms">Mushrooms</label>
-        <br/>
-        <br/>
-        <!--select tag is to select one option from the following-->
-        <label>Crust Type:</label>
-        <select id="crust" name="crust">
-          <option value="deep-dish">Deep Dish</option>
-          <option value="thin-crust">Thin Crust</option>
-          <option value="regular">Regular</option>
-        </select>
-        <br/>
-        <br/>
-        <!-- radio type is used here , you can select one option here-->
-        <label><h3>Service Type:</h3>Service</label>
-        <input type="radio" id="service-takeout" name="service" value="takeout" >
-        <label for="service-takeout">Takeout</label>
-        <input type="radio" id="service-delivery" name="service" value="delivery" >
-        <label for="service-delivery">Delivery</label>
-        <input type="radio" id="service-eat-In" name="service" value="eat-In" >
-        <label for="service-eat-In">Eat-In</label>
-      </fieldset>
-      <br/>
-      <!--another group of elements is created here, with name contact information-->
-      <fieldset>
-        <legend><h3>Contact Information</h3></legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="customer name">
-        <br/>
-        <br/>
-        <!--phone input type for customer to add thier phone no.-->
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="phone no.">
-        <br/>
-        <br/>
-        <!--e-mail input type for customer to provide thier e-mail-->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder=" customer e-mail">
-        <br/>
-        <br/>
-        <!--address input type for customer to give thier address -->
-        <label for="address">Address:</label>
-        <textarea id="address" name="address" rows="3" placeholder="address required"></textarea>
-      </fieldset>
-      <br/>
-      <br/>
-<!--finally to place order a button is placed and to reset the order there is a seperate button-->
-      <input type="reset">
-      <button type="submit">Place Order</button>
-      <br/>
-      <br/>
-        
+<body>
+    <h1> 1. WIREFRAME FOR A CLOTHING BRAND COMPANY:</h1>
+    <br/><div>
+    <img src="Mind Map (1).jpg" alt="wireframe" width="499" ></div>
+    <br/>
+    <br/>
+    <h1>2. PERSONA OF FASHION INFLUENCER:</h1>
+    <br/>
+    <br/>
+
+    <img src="Mind Map (2).jpg" alt="persona" height="499">
+</body>
+</html>
