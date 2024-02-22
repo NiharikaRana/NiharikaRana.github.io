@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+#story-container {
+    margin-top: 20px; 
+    padding: 10px;
+    border: 1px solid #E7CBCB; 
+    border-radius: 5px; 
+    background-color: #C88EA7; 
+  }
+  
+  /* Story text */
+  #story-text {
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin: 0; 
+    padding: 0; 
+  }
+body {
+    font-family:cursive;
+    background-color: #935570;
+    color:#160909;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color:#2f082f;
+    color: #E493B3;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #720455;
+  }
+  
+  #speakButton {
+    background-color: #2f082f;
+  }
+  
+  #speakButton:hover {
+    background-color: #720455;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
